@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://wallpaperaccess.com/full/754632.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+}
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: coral;
+}
+.App {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -100px;
+  display: flex;
+}

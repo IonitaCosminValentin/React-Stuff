@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
+  );
+  min-width: 100vh;
+  min-height: 100vh;
+}
+nav {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(60, 60, 77);
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.shop-css {
+  font-size: 10px;
+  padding: 20px;
+}
+img {
+  width: 20%;
+  height: 20%;
+  box-shadow: 0px 0px 20px 10px rgb(82, 82, 82);
+}
+img:hover {
+  width: 25%;
+  height: 25%;
+}
+h1 {
+  color: whitesmoke;
+}
+
+.deez-nuts {
+  font-size: 100px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
